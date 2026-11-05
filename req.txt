@@ -1,0 +1,32 @@
+# ------------------------------------------------------------------
+# Dependencies for the Lichess chess bot.
+# Install them with:  python -m pip install -r req.txt
+# (We use "python -m pip" because the plain "pip" command is broken
+#  on this machine.)
+# ------------------------------------------------------------------
+
+# python-chess knows every chess rule (legal moves, FEN, applying moves).
+python-chess
+
+# requests lets Python talk to the internet (the Lichess API).
+requests
+
+# python-dotenv reads your secret token out of a .env file.
+python-dotenv
+
+# pytest runs our little tests so we know things still work.
+pytest
+
+# --- Vision features (Feature A: screenshot reader, Feature B: window) ---
+# pygame draws the "Bot Vision" window.
+pygame
+# opencv-python finds the board in a screenshot and crops its squares.
+opencv-python
+# Pillow loads/saves images and does the augmentation for training.
+Pillow
+# numpy is the array math underneath it all.
+numpy
+# torch trains and runs the little CNN that reads each square.
+# (A CPU-only build is plenty:  pip install torch --index-url https://download.pytorch.org/whl/cpu)
+torch
+

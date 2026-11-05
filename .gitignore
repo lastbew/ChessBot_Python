@@ -1,0 +1,18 @@
+# --- Secrets -------------------------------------------------------
+# .env holds your Lichess token. NEVER commit or share this file.
+.env
+
+# --- Python --------------------------------------------------------
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# --- Bot output ----------------------------------------------------
+*.log
+logs/
+
+# --- Downloaded engine binaries (big files, re-downloadable) ------
+engine/stockfish/
+# Full Stockfish source checkout + binary at repo root
+stockfish/
