@@ -1,3 +1,0 @@
-interface:
-  display_name: "Unsafe Rust"
-  short_description: "Justify, document, and verify unsafe blocks with Miri"

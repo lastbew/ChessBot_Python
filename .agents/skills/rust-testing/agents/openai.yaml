@@ -1,3 +1,0 @@
-interface:
-  display_name: "Rust Testing"
-  short_description: "Tests that fail when behaviour changes, including port parity"

@@ -1,3 +1,7 @@
+# --- Local agent / skill config (not part of the project) ----------
+.agents/
+.claude/
+
 # --- Secrets -------------------------------------------------------
 # .env holds your Lichess token. NEVER commit or share this file.
 .env

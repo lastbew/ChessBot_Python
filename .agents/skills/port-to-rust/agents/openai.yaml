@@ -1,3 +1,0 @@
-interface:
-  display_name: "Port to Rust"
-  short_description: "Parity contract, phase sequence, and differential proof for a port"
